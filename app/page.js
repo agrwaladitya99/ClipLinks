@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main className="bg-green-50">
       <section className="grid grid-cols-2 h-[90vh]">
-        <div className="flex flex-col gap-8 items-center justify-center">
+        <div className="flex flex-col gap-4 items-center justify-center">
           <p
-            className={`text-2xl font-bold ${poppins.className} mb-8 mt-[-2rem]`}
+            className={`text-2xl font-bold ${poppins.className} pb-8 pt-[-2rem]`}
           >
             Elevate Your Links: The Ultimate URL Shortener!
           </p>
