@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='h-[10vh] bg-green-500 flex justify-between pl-10 pr-20 items-center text-white font-bold text-xl'>
+    <nav className='h-[10vh] bg-green-400 flex justify-between pl-10 pr-20 items-center text-white font-bold text-xl'>
       <div className="logo text-3xl"> 
         <Link href="/">ClipLinks</Link>
       </div>
