@@ -13,7 +13,9 @@ export default function Home() {
     <main className="bg-green-50">
       <section className="grid grid-cols-2 h-[90vh]">
         <div className="flex flex-col gap-8 items-center justify-center">
-          <p className={`text-4xl font-bold ${poppins.className} mb-12 mt-[-8rem]`}>
+          <p
+            className={`text-4xl font-bold ${poppins.className} mb-12 mt-[-8rem]`}
+          >
             Elevate Your Links: The Ultimate URL Shortener!
           </p>
           <ul className="px-24 text-justify text-2xl font-serif leading-relaxed list-none">
@@ -34,8 +36,8 @@ export default function Home() {
             <li className="mb-4">
               <span className="text-green-500 font-bold">🍀</span>
               <span className="ml-4">
-                That's why we've developed a straightforward solution that meets
-                your needs.
+                That&#39;s why we&#39;ve developed a straightforward solution
+                that meets your needs.
               </span>
             </li>
           </ul>
