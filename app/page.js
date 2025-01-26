@@ -10,7 +10,7 @@ const poppins = localFont({
 
 export default function Home() {
   return (
-    <main className="bg-green-100">
+    <main className="bg-green-50">
       <section className="grid grid-cols-2 h-[90vh]">
         <div className="flex flex-col gap-8 items-center justify-center">
           <p className={`text-4xl font-bold ${poppins.className} mb-12 mt-[-8rem]`}>
@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
           <div className="flex gap-3 justify-start">
             <Link href="/shorten">
-              <button className="bg-green-500 rounded-lg shadow-lg p-8 py-3 text-3xl font-bold text-white">
+              <button className="bg-green-400 rounded-lg shadow-lg p-8 py-3 text-3xl font-bold text-white">
                 Try Now
               </button>
             </Link>

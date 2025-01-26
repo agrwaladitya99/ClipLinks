@@ -60,7 +60,7 @@ const Shorten = () => {
         />
         <button
           onClick={generate}
-          className="bg-green-500 rounded-lg shadow-lg p-4 py-2 my-4 font-bold text-xl text-white"
+          className="bg-green-400 rounded-lg shadow-lg p-4 py-2 my-4 font-bold text-xl text-white"
         >
           Generate
         </button>
