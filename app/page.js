@@ -14,7 +14,7 @@ export default function Home() {
       <section className="grid grid-cols-2 h-[90vh]">
         <div className="flex flex-col gap-8 items-center justify-center">
           <p
-            className={`text-3xl font-bold ${poppins.className} mb-12`}
+            className={`text-2xl font-bold ${poppins.className} mb-8 mt-[-2rem]`}
           >
             Elevate Your Links: The Ultimate URL Shortener!
           </p>
